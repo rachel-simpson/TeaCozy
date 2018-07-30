@@ -19,6 +19,7 @@ html {
 /* header section */
 
 header {
+  background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
   align-items: center;
@@ -37,4 +38,30 @@ header img {
 header a {
   color: seashell;
   padding: 0 10px;
+}
+
+/* banner section */
+
+.jumbotron {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  position: relative;
+  top: 70px;
+}
+
+.mission {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  width: 1200px;
+}
+
+.mission h2, .mission h4 {
+  padding: 10px 0;
 }
