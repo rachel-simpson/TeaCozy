@@ -1,0 +1,40 @@
+/* reset universal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* set page styles */
+
+html {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header section */
+
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header a {
+  color: seashell;
+  padding: 0 10px;
+}
