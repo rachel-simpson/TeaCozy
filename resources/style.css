@@ -105,3 +105,36 @@ header a {
 .tea img {
   padding: 10px;
 }
+
+/* locations section */
+
+.locations {
+  background-image: url(./images/locations.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 50px auto 0 auto;
+  padding-top: 70px;
+}
+
+.locations h2 {
+  padding: 30px 0 15px 0;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 40px;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+}
