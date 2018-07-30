@@ -42,6 +42,11 @@ header a {
 
 /* banner section */
 
+.main {
+  position: relative;
+  top: 70px;
+}
+
 .jumbotron {
   background-image: url(./images/background.jpg);
   background-position: center;
@@ -50,8 +55,6 @@ header a {
   align-items: center;
   justify-content: center;
   height: 700px;
-  position: relative;
-  top: 70px;
 }
 
 .mission {
@@ -64,4 +67,41 @@ header a {
 
 .mission h2, .mission h4 {
   padding: 10px 0;
+}
+
+/* featured section */
+
+.feature {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  width: 1000px;
+}
+
+.feature h2 {
+  padding-bottom: 10px;
+}
+
+.feature h4 {
+  padding-bottom: 30px;
+}
+
+.feature img {
+  height: 200px;
+  width: 300px;
+}
+
+.monthly-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tea img {
+  padding: 10px;
 }
